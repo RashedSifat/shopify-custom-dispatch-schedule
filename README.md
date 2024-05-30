@@ -7,6 +7,7 @@ For example, if the cutoff hour is 12 PM, the orders which are made before 12 PM
 
 The following javascript code is needed to add to the product liquid page at the very above of the file.
 
+````
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     function updateDeliveryDate() {
@@ -95,7 +96,7 @@ The following javascript code is needed to add to the product liquid page at the
       
   });
 </script>
-
+````
 
 The variables for example {{ section.settings.monday }} is captured from the schema. The added schema for the customizer input is as followed in the same product page:
 
