@@ -100,6 +100,7 @@ The following javascript code is needed to add to the product liquid page at the
 
 The variables for example {{ section.settings.monday }} is captured from the schema. The added schema for the customizer input is as followed in the same product page:
 
+````
     {
       "type": "header",
       "content": "Working days"
@@ -160,7 +161,16 @@ The variables for example {{ section.settings.monday }} is captured from the sch
       "step":       1,
       "default":    14
     }
+````
 
 Now, the message about the dispatch time will be published in the product page as:
 
+````
 <p>WILL BE SENT <span id="delivery-date"></span></p>
+````
+
+
+If you still faceing any issues to use the codes, feel free to contact me at: <a href="mailto:me.sifat@live.com">me.sifat@live.com</a>
+Or, Directly hire me: <a href="https://www.upwork.com/o/profiles/users/~01c3507b22db0d551a/">Hire on Upwork</a>
+
+Happy Coding!
